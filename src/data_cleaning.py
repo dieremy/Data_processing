@@ -1,11 +1,8 @@
-import pandas
+import pandas as pd
 
 class DataCleaning:
     def __init__(self, data):
         self.data = data
-
-    def helloworld():
-        return "helloworld"
 
     def drop_columns(self, sort):
         if sort == 'asc':
@@ -17,5 +14,6 @@ class DataCleaning:
 
         return sorted_cols
         
-    def get_integers(self):
-        self.data
+    def get_integers(self, column):
+        return pd.to_numeric(column, errors='coerce')
+    
