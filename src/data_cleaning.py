@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 
-ARTWORK_DATA = os.path.abspath('../data/artwork_data.csv')
-ARTIST_DATA = os.path.abspath('../data/artist_data.csv')
+ARTWORK_DATA = os.path.abspath('../data/art/artwork_data.csv')
+ARTIST_DATA = os.path.abspath('../data/art/artist_data.csv')
 
 class DataCleaning:
     def __init__(self, data):
