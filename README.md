@@ -1,6 +1,3 @@
-<h1> Read the csv file then: </h1>
-
-
 # ART DATA PROCESSING
 
 ## Artwork data
@@ -21,6 +18,6 @@
 
 - the annual production of games
 
-- which the platform that sells most videogames overall
+- which is the platform that sells most videogames overall
 
 - understand the trend of annual sales of action games
