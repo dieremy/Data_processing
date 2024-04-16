@@ -21,3 +21,15 @@
 - which is the platform that sells most videogames overall
 
 - understand the trend of annual sales of action games
+
+
+# HOUSE DATA PROCESSING
+
+## House data price correlation
+- Find price correlation : achieve with and without "tool" usage
+
+- Find seaborn plot function to understand data
+
+- Find pandas function that lets you achieve the task
+
+- Provide a report based on data manipulation

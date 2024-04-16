@@ -1,10 +1,5 @@
-import os
 import pandas as pd
 
-
-ARTWORK_DATA = os.path.abspath('../data/art/artwork_data.csv')
-ARTIST_DATA = os.path.abspath('../data/art/artist_data.csv')
-VGAMES_DATA = os.path.abspath('../data/games/vgsales.xlsx')
 
 class DataCleaning:
     def __init__(self, data):
@@ -23,6 +18,6 @@ class DataCleaning:
     def get_integers(self, column):
         return pd.to_numeric(column, errors='coerce')
     
-    def get_occcurrences(self, column):
+    def get_occurrences(self, column):
         return column.value_counts()
     
